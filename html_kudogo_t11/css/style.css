@@ -1,0 +1,486 @@
+/* ここから下に記載していく */
+body {
+      margin: 20px;
+      background-color: #DDDDDD;
+}
+
+/* ロゴとタイトル*/
+.return-top {
+      position: fixed;
+      font-size: 20px;
+      font-weight: bold;
+}
+
+.logo-image img {
+      width: 13%;
+      height: 13%;
+      float: left;
+      padding: 20px;
+}
+
+/* ホバーアクション　ここから */
+.logo-image img {
+      overflow: hidden;
+    }
+    .logo-image img:hover{
+      transform: scale(1.2);
+      transition-duration: 0.5s;
+      opacity: 0.6;
+    }
+/* ホバーアクション　ここまで */
+
+.top-title {
+      height: 50px;
+      padding: 0;
+      margin: 0 90px 0 0;
+      text-align: center;
+      font-size: 60px;
+      font-weight: bold;
+      color: #FF9900;
+      padding: 50px;
+}
+
+
+/* 目次 */
+ul {
+      display: flex;
+      justify-content: flex-end;
+}
+
+li {
+      padding: 10px;
+}
+
+a {
+      text-decoration: none;
+      color: #550000;
+}
+
+/* トップの画像 */
+.Top-shimofuri {
+      text-align: center;
+}
+
+.Top-shimofuri img {
+      width: 100%;
+      border-radius: 10%;
+      position: relative;
+}
+
+/* コンテンツ共通 */
+.content-title {
+      font-weight: bold;
+      color: orange;
+      font-size: 30px;
+      text-align: center;
+      padding: 0 0 30px 0;
+      
+}
+
+/* アバウト部分 */
+
+.about-comment {
+      text-align: center;
+}
+
+.about-comment1 {
+      padding: 20px 0 50px 0;
+      font-weight: bold;
+}
+
+.about-comment3 {
+      padding: 0 0 30px 0;
+}
+
+.about-comment4 {
+      padding: 0 0 30px 0;
+}
+
+/* .shimofuri-about-img {
+      display: flex;
+}
+
+.shimofuri-about-img img {
+      width: 300px;
+      height: 250px;
+} */
+
+
+/* プロフィール部分 タイトルとseiya */
+
+#PROFILE {
+      padding: 0 0 20px 0;
+}
+
+.profile-img-seiya img {
+      width: 700px;
+      height: 450px;
+      float: left;
+}
+
+/* ホバーアクション ここから*/
+.profile-img-seiya img {
+      overflow: hidden;
+    }
+    .profile-img-seiya img:hover{
+      transform: scale(1.2);
+      transition-duration: 0.5s;
+    }
+/* ホバーアクション ここまで*/
+
+
+.seiya-back {
+      background-color: #FFFF99;
+      height: 450px;
+}
+
+.seiya-setsu {
+      padding: 50px 0 30px 0;
+      text-align: center;
+}
+
+.seiya-title {
+      font-weight: bold;
+      font-size: 35px;
+}
+
+.seiya-profile2 {
+      text-align: center;
+}
+
+.seiya-profile2 p {
+      height: 20px;
+}
+
+.seiya-qustion-answer {
+      padding: 0 0 30px 0;
+}
+/* プロフィール部分 soshina */
+
+.soshina-profile {
+      text-align: center;
+      width: 700px;
+      height: 450px;
+      background-color: #111111;
+      float: left;
+      color: white;
+}
+
+.soshina-title {
+      font-weight: bold;
+      font-size: 35px;
+}
+
+.soshina-setsu {
+      padding: 50px 0 30px 0;
+}
+
+.soshina-qustion-answer {
+      padding: 0 0 30px 0;
+}
+
+.profile-img-soshina img {
+      width: 700px;
+      height: 450px;
+}
+
+/* ホバーアクション ここから*/
+.profile-img-soshina img {
+      overflow: hidden;
+    }
+    .profile-img-soshina img:hover{
+      transform: scale(1.2);
+      transition-duration: 0.5s;
+    }
+/* ホバーアクション ここまで*/
+
+
+/* 受賞歴 */
+
+.shimofuri-profile-img img {
+      width: 700px;
+      height: 450px;
+      float: left;
+}
+
+/* ホバーアクション ここから*/
+.shimofuri-profile-img img {
+      overflow: hidden;
+    }
+    .shimofuri-profile-img img:hover{
+      transform: scale(1.2);
+      transition-duration: 0.5s;
+    }
+/* ホバーアクション ここまで*/
+
+.shimofuri-record {
+      height: 450px;
+      background-color: #008000;
+      text-align: center;
+      color: white;
+}
+
+.record {
+      font-weight: bold;
+      font-size: 35px;
+      padding: 50px 0 30px 0;
+}
+
+.record-answer {
+      padding: 0 0 30px 0;
+
+}
+
+/* ニュース */
+
+.news-setsu {
+      text-align: center;
+      padding: 20px;
+}
+
+.news-table {
+      margin: auto;
+}
+
+.news-table tr {
+      background-color:white;
+}
+
+.news-table th {
+      padding: 10px 20px;
+      text-align: left;
+}
+
+.news-table td {
+      padding: 10px 20px;
+      text-align-last: left;
+}
+
+/* ニュースのもっと見るの部分 */
+
+/*inputを非表示*/
+input[type="checkbox"].on-off{
+      opacity: 0;
+    }
+    
+    
+    /*ラベル（「開く」ボタン）*/
+    .open-label{
+      margin: auto;
+      width: 100px;
+      padding: 0.8em;
+      display: block;
+      color: #fff;
+      font-weight: bold;
+      text-align: center;
+      box-shadow: 0 2px 0 2px #aaa;
+      background: #fcae11;
+      border-radius: 10px;
+    }
+    /*ボタンっぽい効果*/
+    .open-label:active{
+      box-shadow: 0 0 0 0;
+    }
+    .open-label:hover{
+      background: -webkit-linear-gradient(bottom, #fff4e0 1%,orange 80%);
+      background: #fcbe11;
+    }
+    
+    
+    /*開閉エリア*/
+    .open{
+      padding: 0 1em;
+      height: 0;
+      opacity: 0;
+      transition: .5s;
+    }
+    /*「開く」をタップで表示*/
+    .on-off:checked  ~ .open{
+      padding: 1.5em 1em;
+      height: auto;
+      opacity: 1;
+    }
+/* ニュースのもっと見る　ここまで */
+
+/* レコメンド */
+
+.content-title {
+      padding: 50px 0 0 0;
+}
+
+
+/* Youtubeのリンク */
+
+.recommend-text {
+      font-weight: bold;
+      text-align: center;
+      font-size: 30px;
+      padding: 10px 10px 20px 10px;
+}
+
+.channel {
+      text-align: center;
+}
+
+.channel {
+      height: 70px;
+}
+
+.channel p {
+      padding: 10px;
+}
+
+.youtubelink iframe{
+      padding: 30px 0 0 0;
+}
+
+/* ループスライダー　ここから */
+.youtubelink {
+      overflow: hidden;
+}
+
+.slider-inner {
+      display: flex;
+}
+
+.youtube-link-wrap {
+      display: flex;
+      align-items: center;
+      height: 150px;
+      overflow: hidden;
+}
+
+.youtube-link-cotent {
+      width: 300px;
+      height: 150px;
+}
+
+.youtube-link-slideshow {
+      display: flex;
+      animation: loop-slide 20s infinite linear 1s both;
+    }
+    @keyframes loop-slide {
+      from {
+        transform: translateX(0);
+      }
+      to {
+        transform: translateX(-100%);
+      }
+    }
+
+    .slide-paused:hover .youtube-link-slideshow {
+      animation-play-state: paused;
+    }
+    /* ホバーで大きくなる */
+    .youtube-link-slideshow li:hover{
+      transform: scale(1.2);
+      transition-duration: 1s;
+    }
+
+
+/* ループスライダー　ここまで */
+
+
+/* アクセス */
+.access-map {
+      text-align: center;
+      padding: 0 0 0px 0;
+}
+
+.access-setsu p {
+      text-align: center;
+}
+
+.gaiyou {
+      font-weight: bold;
+      padding: 20px;
+      font-size: 20px;
+}
+
+.access-profile td{
+      padding: 10px 30px 20px 30px;
+}
+
+.access-profile {
+      margin: auto;
+      background-color: #FFEEFF;
+
+}
+
+.access-profile-title {
+      font-weight: bold;
+      background: repeating-linear-gradient(-45deg, skyblue, skyblue 2px, white 2px, white 4px);
+}
+
+/* コンタクト */
+
+.form-title {
+      text-align: center;
+      padding: 10px;
+}
+
+.form-title h2 {
+      font-weight: bold;
+      font-size: 20px;
+      padding: 10px;
+}
+
+.contact-table {
+      margin: auto;
+}
+
+
+.contact-table td {
+      padding: 5px 30px;
+      border: solid 1px #BBBBBB;
+}
+
+.contact-table th {
+      background-color: #99FFFF;
+      padding: 0 30px;
+      border: solid 1px #BBBBBB;
+      vertical-align: middle;
+}
+
+.answer {
+      width: 335px;
+}
+
+select:hover {
+      background-color: gray; 
+}
+
+.contact-enter button {
+      background-color: #330000;
+      color: white;
+      width: 100px;
+}
+
+.contact-enter {
+      text-align: center;
+      padding: 10px;
+}
+
+.contact-enter button:hover {
+      background: mediumseagreen;
+}
+
+.radio-box {
+      height: 100px; /* ラジオボックスを広くする　*/
+}
+
+.radio-btn {
+      vertical-align: middle; /* ラジオボタンを縦に真ん中配置 */
+      font-size: 15px;
+}
+
+/* フッター */
+
+footer {
+      background-color: #707070;
+      padding: 15px;
+      text-align: center;
+      color: white;
+      font-size: 10px;
+      margin: 10px;
+}
